@@ -1,0 +1,256 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+  list-style: none;
+  scroll-behavior: smooth;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(57, 226, 184);
+}
+
+.navbar {
+  display: flex;
+  padding: 20px 5%;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  background-color: rgba(58, 132, 161, 0.377);
+  box-shadow: 0 0 14px rgba(0, 0, 0, 0.3);
+}
+
+.logo {
+  color: #361b1b;
+  font-size: 2.5em;
+  font-weight: 600;
+  line-height: 0.8;
+  align-items: center;
+}
+
+.navbar .menu li {
+  display: inline-block;
+}
+
+.navbar .menu li a {
+  display: block;
+  margin-right: 30px;
+  color: rgb(54, 29, 77);
+  border-bottom: 4px solid transparent;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.navbar .menu li a i {
+  color: rgb(75, 50, 99);
+  font-size: 30px;
+}
+
+.icon {
+  display: inline-block;
+  margin: 20px;
+  font-size: 30px;
+}
+
+.icon i {
+  color: rgb(65, 63, 63);
+}
+.icon i:hover {
+  transform: scale(1.1);
+  color: rgb(105, 105, 53);
+}
+
+/* HOME SECTION */
+
+.home {
+  padding: 0;
+  display: flex;
+  height: 100vh;
+  background-image: url(../img/p.jpg);
+  background-size: cover;
+}
+
+.content-home {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  width: 240vh;
+}
+
+.text-home {
+  display: block;
+  gap: 7px;
+}
+
+.text-home h1 {
+  margin-bottom: 2rem;
+  font-size: 3rem;
+  color: rgb(42, 104, 0);
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: bold;
+}
+
+.text-home .teks {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.4rem;
+  font-weight: 700;
+  text-transform: capitalize;
+  color: #0481aa;
+}
+
+.bg-text {
+  background-color: rgb(107, 107, 107);
+  color: aliceblue;
+  padding: 0.5rem;
+  margin: 1rem;
+}
+
+.text-home .log {
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+  font-size: 1.6rem;
+}
+
+/* treding produk */
+
+.list-produk {
+  width: 100%;
+  height: max-content;
+  background-image: url("../img/bg-dubai.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.judul {
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 3rem;
+}
+
+.container-produk {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding-bottom: 3rem;
+}
+
+.produk .tata {
+  position: relative;
+  display: flex;
+  width: 30rem;
+  backdrop-filter: blur(4px);
+  padding: 1rem;
+  border: #111 solid 3px;
+  padding: 1rem;
+  text-align: center;
+}
+
+.produk img {
+  width: 10rem;
+  height: 10rem;
+  border: #111 2px solid;
+}
+
+.text-produk {
+  margin-left: 1rem;
+}
+
+.text-produk h3 {
+  background-color: #b86500d0;
+  padding: 5px;
+}
+
+.text-produk p {
+  padding-top: 0.5rem;
+  font-weight: bold;
+}
+
+.text-produk .under {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3rem;
+}
+
+.text-produk .under button {
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-left: 12px;
+  padding-right: 12px;
+  background-color: #627534;
+  border: black 1px solid;
+  cursor: pointer;
+  border-radius: 4px;
+  font-weight: 600;
+}
+
+.text-produk .under .star {
+  margin-left: 1rem;
+}
+
+.produk-kanan {
+  right: inherit;
+}
+
+/* footer */
+
+.footer {
+  background-color: #a5caf5;
+  padding: 1rem;
+}
+
+.contact-info {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, auto));
+  gap: 3rem;
+  padding: 2rem;
+}
+
+.contact-info h4 {
+  color: #1b1010;
+  font-size: 14px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.contact-info p {
+  color: #271818;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: capitalize;
+  line-height: 1.5;
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: all 0.42s;
+}
+
+.contact-info p:hover {
+  color: #5a3d19;
+}
+
+.icon-social i {
+  color: #2c1f1f;
+  margin-right: 10px;
+  font-size: 20px;
+  transition: all 0.42s;
+}
+
+.icon-social i:hover {
+  transform: scale(1.3);
+}
+
+.terakhir-ter {
+  background-color: #4c7b8a;
+  text-align: center;
+  padding: 20px;
+}
+
+.terakhir-ter p {
+  color: #111;
+  text-transform: capitalize;
+}
